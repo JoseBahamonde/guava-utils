@@ -7,7 +7,7 @@ import com.google.common.collect.ComparisonChain;
 /**
  * Allows to use guava ComparisonChain as a builder. Useful to avoid forgetting
  * assignments to a declared ComparisonChain variable, which leads to unexpected
- * results.
+ * results in the final comparison value.
  * 
  * @see com.google.common.collect.ComparisonChain
  * 
