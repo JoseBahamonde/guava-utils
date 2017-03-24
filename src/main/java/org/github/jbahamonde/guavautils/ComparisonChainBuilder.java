@@ -14,11 +14,19 @@ import com.google.common.collect.ComparisonChain;
  * @author jbahamonde
  *
  */
-public class ComparisonChainBuilder {
+public final class ComparisonChainBuilder {
+    
     private ComparisonChain chain;
 
     private ComparisonChainBuilder() {
         chain = ComparisonChain.start();
+    }
+    
+    /**
+     * Static factory method to instantiate the class
+     */
+    public static ComparisonChainBuilder start() {
+        return new ComparisonChainBuilder();
     }
 
     /**
@@ -98,4 +106,5 @@ public class ComparisonChainBuilder {
     public int result() {
         return this.chain.result();
     }
+    
 }
