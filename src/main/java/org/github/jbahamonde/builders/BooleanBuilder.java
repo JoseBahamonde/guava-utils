@@ -87,7 +87,7 @@ public class BooleanBuilder {
 	 * @return The value accumulated on the builder.
 	 */
 	public boolean result() {
-		return new Boolean(this.value).booleanValue();
+		return this.value;
 	}
 	
 	/**
