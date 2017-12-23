@@ -92,7 +92,6 @@ public class BooleanBuilder {
 	
 	/**
 	 * Constructs the builder starting with a true value
-	 * @return
 	 */
 	public static BooleanBuilder trueValue() {
 		return new BooleanBuilder(true);
@@ -100,10 +99,16 @@ public class BooleanBuilder {
 	
 	/**
 	 * Constructs the builder starting with a false value
-	 * @return
 	 */
 	public static BooleanBuilder falseValue() {
 		return new BooleanBuilder(false);
 	}
 	
+	/**
+	 * Constructs the builder with the given initial value
+	 */
+	public static BooleanBuilder of(boolean initialValue) {
+		return new BooleanBuilder(initialValue);
+	}
+
 }
