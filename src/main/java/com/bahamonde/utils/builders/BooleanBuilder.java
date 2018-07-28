@@ -1,4 +1,4 @@
-package org.github.jbahamonde.builders;
+package com.bahamonde.utils.builders;
 
 /**
  * Utility to ease the creation of Boolean expressions using the Builder pattern

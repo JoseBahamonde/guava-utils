@@ -1,4 +1,4 @@
-package org.github.jbahamonde.guavautils;
+package com.bahamonde.utils.guavautils;
 
 import java.util.Comparator;
 
