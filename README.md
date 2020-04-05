@@ -1,2 +1,2 @@
-# java-utils
-Utilities and re-implementations for Java and Java utilities frameworks (Google Guava)
+# GoF Patterns
+Utilities and GoF patterns base implementations in java
