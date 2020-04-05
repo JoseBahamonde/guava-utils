@@ -1,4 +1,4 @@
-package dev.bahamonde.utils.builders;
+package main.java.dev.bahamonde.utils.patterns.creational.builder;
 
 /**
  * Utility to ease the creation of Boolean expressions using the Builder pattern
