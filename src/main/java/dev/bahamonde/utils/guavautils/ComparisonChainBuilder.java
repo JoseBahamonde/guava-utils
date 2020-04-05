@@ -1,4 +1,4 @@
-package com.bahamonde.utils.guavautils;
+package dev.bahamonde.utils.guavautils;
 
 import java.util.Comparator;
 
@@ -11,7 +11,7 @@ import com.google.common.collect.ComparisonChain;
  * 
  * @see com.google.common.collect.ComparisonChain
  * 
- * @author jbahamonde
+ * @author jose@bahamonde.dev
  *
  */
 public final class ComparisonChainBuilder {

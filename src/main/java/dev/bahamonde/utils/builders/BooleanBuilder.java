@@ -1,8 +1,8 @@
-package com.bahamonde.utils.builders;
+package dev.bahamonde.utils.builders;
 
 /**
  * Utility to ease the creation of Boolean expressions using the Builder pattern
- * @author jbahamonde
+ * @author jose@bahamonde.dev
  * 
  */
 public class BooleanBuilder {

@@ -1,10 +1,10 @@
-package com.bahamonde.utils.locks;
+package dev.bahamonde.utils.locks;
 
 /**
  * Utility to ease de synchronization with primitive values. Returns the same
  * object for de same primitive value.
  * 
- * @author jbahamonde
+ * @author jose@bahamonde.dev
  *
  */
 public class PrimitiveLock {
