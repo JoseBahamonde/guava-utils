@@ -1,4 +1,4 @@
-package dev.bahamonde.utils.locks;
+package main.java.dev.bahamonde.utils.patterns.creational.factory;
 
 /**
  * Utility to ease de synchronization with primitive values. Returns the same
@@ -9,27 +9,27 @@ package dev.bahamonde.utils.locks;
  */
 public class PrimitiveLock {
 
-	public Object of(int value) {
+	public static Object of(int value) {
 		return String.valueOf(value).intern();
 	}
 
-	public Object of(long value) {
+	public static  Object of(long value) {
 		return String.valueOf(value).intern();
 	}
 
-	public Object of(double value) {
+	public static Object of(double value) {
 		return String.valueOf(value).intern();
 	}
 
-	public Object of(float value) {
+	public static Object of(float value) {
 		return String.valueOf(value).intern();
 	}
 
-	public Object of(byte value) {
+	public static Object of(byte value) {
 		return String.valueOf(value).intern();
 	}
 
-	public Object of(char value) {
+	public static Object of(char value) {
 		return String.valueOf(value).intern();
 	}
 
