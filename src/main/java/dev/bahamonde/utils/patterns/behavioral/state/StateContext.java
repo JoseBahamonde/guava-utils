@@ -5,7 +5,7 @@ package main.java.dev.bahamonde.utils.patterns.behavioral.state;
  * @param <S> The state base hierarchy. By default it would be the {@link State} class. It can me any of its child.
  *           If the type is a child of {@link State} class then any of its parents can't be set up as the current state.
  */
-public class StateContext<S extends State<?>> {
+public abstract class StateContext<S extends State<?>> {
 
     private S state;
 
