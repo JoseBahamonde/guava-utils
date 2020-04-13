@@ -1,8 +1,7 @@
-package main.java.dev.bahamonde.utils.patterns.behavioral.memento;
+package main.java.dev.bahamonde.patterns.behavioral.memento;
 
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.Stack;
 
 /**
  * History of mementos

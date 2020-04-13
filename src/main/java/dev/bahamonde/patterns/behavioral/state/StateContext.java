@@ -1,4 +1,4 @@
-package main.java.dev.bahamonde.utils.patterns.behavioral.state;
+package main.java.dev.bahamonde.patterns.behavioral.state;
 
 /**
  * Represents a state context

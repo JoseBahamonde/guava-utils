@@ -1,4 +1,4 @@
-package main.java.dev.bahamonde.utils.patterns.structural.flyweight;
+package main.java.dev.bahamonde.patterns.structural.flyweight;
 
 import java.util.HashMap;
 import java.util.Map;

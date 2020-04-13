@@ -1,4 +1,4 @@
-package main.java.dev.bahamonde.utils.patterns.behavioral.chain;
+package main.java.dev.bahamonde.patterns.behavioral.chain;
 
 /**
  * Chain of responsibility implementation for filters

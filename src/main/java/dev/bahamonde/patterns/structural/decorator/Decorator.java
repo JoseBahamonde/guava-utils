@@ -1,4 +1,4 @@
-package main.java.dev.bahamonde.utils.patterns.structural.decorator;
+package main.java.dev.bahamonde.patterns.structural.decorator;
 
 /**
  * Definition for the decorator pattern. It wraps the decorated components. Its intention is also provides a base

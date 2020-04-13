@@ -1,4 +1,4 @@
-package main.java.dev.bahamonde.utils.patterns.behavioral.memento;
+package main.java.dev.bahamonde.patterns.behavioral.memento;
 
 /**
  * Recoverable object with memento pattern. Types that could be recovered should implement this

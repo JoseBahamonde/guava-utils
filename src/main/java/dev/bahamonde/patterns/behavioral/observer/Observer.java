@@ -1,4 +1,4 @@
-package main.java.dev.bahamonde.utils.patterns.behavioral.observer;
+package main.java.dev.bahamonde.patterns.behavioral.observer;
 
 public abstract class Observer {
 
