@@ -9,7 +9,7 @@ This library implements design patterns in these modes:
   Some patterns are not fully implemented as it needs concrete parts to be provided. Usually implementing or extending 
   this abstractions we force the pattern usage in custom code.
 + **Pattern definitions.** 
-  This implementations are basically for documentation purposes. IE. the Decorator pattern is an abstract class and if
+  This implementations are basically for documentation purposes. IE. the `Decorator` type is an abstract class and if
   any class extends it we can know that the intention of our custom code is to use a decorator pattern. Although it also 
   provides a base functionality to ease the decoration.
   
