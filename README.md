@@ -13,4 +13,4 @@ This library implements design patterns in these modes:
   any class extends it we can know that the intention of our custom code is to use a decorator pattern. Although it also 
   provides a base functionality to ease the decoration.
   
-  NOTE: Not all GoF patterns are in this library.
+  NOTE: The intention of this library is not to cover all GoF patterns.
