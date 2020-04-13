@@ -5,7 +5,7 @@ package main.java.dev.bahamonde.utils.patterns.structural.decorator;
  * documentation for the concrete decorator.
  * @param <T> The type to decorate
  */
-public class Decorator<T> {
+public abstract class Decorator<T> {
 
     private final T component;
 
